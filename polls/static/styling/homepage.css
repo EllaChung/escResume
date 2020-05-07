@@ -1,5 +1,26 @@
-/* stylelint-disable selector-list-comma-newline-after */
+body {
+  background: white url("images/white1.jpeg") no-repeat;
+  background-size: cover;
+}
 
+.p-2 {
+  color: black;
+}
+
+.nav {
+  background: rgba(255, 255, 255, 0.644);
+}
+
+.col {
+  background: rgba(255, 255, 255, 0.644);
+}
+
+.jumbotron {
+  background: rgba(0, 0, 0, 0.582);
+}
+
+
+/* stylelint-disable selector-list-comma-newline-after */
 .blog-header {
     line-height: 1;
     border-bottom: 1px solid #e5e5e5;
