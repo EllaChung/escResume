@@ -1,2 +1,23 @@
 {% extends "polls/base.html" %}
 {% load static %}
+
+{% block content %}
+
+<link rel="stylesheet"  type="text/css" href="{% static 'styling/courseWork.css' %}">
+
+<div class="container">
+    <div class="jumbotron text-black rounded" style="background-color: rgba(99, 99, 99, 0.418); padding-top: 20px; padding-bottom: 20px">
+        <h5 class="display-4 font-italic" style="padding-left: 15px;">Resume</h5>
+        <hr>
+        <div>
+            <h5 style="padding-left: 15px;"><a href="https://www.linkedin.com/in/ella-sammie-chung-633763121/">Click</a> to view my LinkedIn.</h5>
+            <p class="lead my-3" style="padding-left: 15px;">I am a 4th Year at the University of Virginia - Disciplined in Computer Science and Linguistics</p>
+            <p style="padding-left: 15px;">In creating this site, I aimed to apply what I learned in my CS courses, internships, online courses, etc. to a tangible project. The site is currently 
+          deployed through Heroku. </p> 
+          </div>
+        <div class="grid-container" style="display: grid; grid-template-columns: 50% 50%; grid-gap: 26%">
+        </div>
+    </div>
+  </div>
+
+{% endblock content %}
