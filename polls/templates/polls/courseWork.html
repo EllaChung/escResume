@@ -5,19 +5,67 @@
 
 <link rel="stylesheet"  type="text/css" href="{% static 'styling/courseWork.css' %}">
 
-<div class="container">
+  <div class="container">
     <div class="jumbotron text-black rounded" style="background-color: rgba(99, 99, 99, 0.418); padding-top: 20px; padding-bottom: 20px">
-        <h5 class="display-4 font-italic" style="padding-left: 15px;">Resume</h5>
+        <h5 class="display-4 font-italic" style="padding-left: 15px;">Course Work</h5>
         <hr>
-        <div>
-            <h5 style="padding-left: 15px;"><a href="https://www.linkedin.com/in/ella-sammie-chung-633763121/">Click</a> to view my LinkedIn.</h5>
-            <p class="lead my-3" style="padding-left: 15px;">I am a 4th Year at the University of Virginia - Disciplined in Computer Science and Linguistics</p>
-            <p style="padding-left: 15px;">In creating this site, I aimed to apply what I learned in my CS courses, internships, online courses, etc. to a tangible project. The site is currently 
-          deployed through Heroku. </p> 
+        <div class="grid-container" style="display: grid; grid-template-columns: 50% 50%; grid-gap: 15%">
+          <div>
+            <p style="padding-left: 15px;"><strong>Computer Science</strong></p>
+            <br>
+            <h5>1st Year</h5>
+              <ul class="list-unstyled">
+                <li>CS 1110: Introduction to Programming</li>
+              </ul>
+
+            <h5>2nd Year</h5>
+            <ul class="list-unstyled">
+              <li>CS 2110: Software Development Methods</li>
+            </ul>
+
+            <h5>3rd Year</h5>
+            <ul class="list-unstyled">
+              <li>CS 2150: Program & Data Representation</li>
+              <li>CS 3240: Advanced Software Development</li>
+              <li>CS 4102: Algorithms</li>
+            </ul>
+
+            <h5>4th Year</h5>
+            <ul class="list-unstyled">
+              <li>CS 3330: Computer Architecture</li>
+              <li>CS 4740: Cloud Computing</li>
+            </ul>
           </div>
-        <div class="grid-container" style="display: grid; grid-template-columns: 50% 50%; grid-gap: 26%">
+
+          <div>
+            <p style="padding-left: 15px;"><strong>Linguistics</strong></p>
+            <br>
+            <h5>1st Year</h5>
+              <ul class="list-unstyled">
+              </ul>
+
+            <h5>2nd Year</h5>
+            <ul class="list-unstyled">
+              <li>ANTH 2410: Sociolinguistics</li>
+              <li>ANTH 3480: Language and Prehistory</li>
+            </ul>
+
+            <h5>3rd Year</h5>
+            <ul class="list-unstyled">
+              <li>LING 3250: Intro to Linguistic Theory</li>
+              <li>LING 3400: Structure of English</li>
+              <li>ANTH 3490: Language and Thought</li>
+              <li>ANTH 5410: Phonology</li>
+            </ul>
+
+            <h5>4th Year</h5>
+            <ul class="list-unstyled">
+              <li>ANTH 2430: Languages of the World</li>
+            </ul>
+          </div>
         </div>
     </div>
   </div>
+
 
 {% endblock content %}
