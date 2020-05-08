@@ -25,4 +25,5 @@ urlpatterns = [
     path('aboutme/', TemplateView.as_view(template_name="polls/aboutme.html")),
     path('previousWork/', TemplateView.as_view(template_name="polls/previousWork.html")),
     path('courseWork/', TemplateView.as_view(template_name="polls/courseWork.html")),
+    #path('resume/', TemplateView.as_view(template_name="polls/resume.html")),
 ]

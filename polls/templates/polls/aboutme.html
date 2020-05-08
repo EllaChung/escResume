@@ -1,2 +1,67 @@
 {% extends "polls/base.html" %}
 {% load static %}
+
+{% block content %}
+
+<!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">-->
+<link rel="stylesheet"  type="text/css" href="{% static 'styling/aboutme.css' %}">
+
+<div class="container">
+  <div class="jumbotron text-black rounded" style="background-color: rgba(99, 99, 99, 0.418); padding-top: 20px; padding-bottom: 20px">
+      <h5 class="display-4 font-italic" style="padding-left: 15px;">Ella (Sammie) Chung</h5>
+      <hr>
+      <div class="grid-container" style="display: grid; grid-template-columns: 50% 50%; grid-gap: 26%">
+        <div>
+          <h5 style="padding-left: 15px;">What is the Purpose of This Site?</h5>
+          <p class="lead my-3" style="padding-left: 15px;">I created this site to practice my web development skills - through an interactive resume.</p>
+          <p style="padding-left: 15px;">In creating this site, I aimed to apply what I learned in my CS courses, internships, online courses, etc. to a tangible project. The site is currently 
+        deployed through Heroku. </p> 
+        </div>
+        <div>
+          <img class="responsive" src="../../static/styling/images/sammie.jpeg" alt="sammie">
+        </div>
+      </div>
+  </div>
+</div>
+
+<main role="main" class="container">
+  <div class="row">
+    <div class="col-md-8 blog-main">
+      <div class="blog-post">
+        <div class="p-4 mb-3 bg-light rounded">
+          <p>The 'Homepage' page welcomes you! Along with the navbar at the top, the homepage will allow you to navigate through this site.</p>
+          <p>The 'AboutMe' page, which you're already on, is where I've decided to introduce myself. See the 'Get in Touch!' box at the right for inquiries/questions/comments/etc.
+              I've also listed my LinkedIn and Github as well. 
+          </p>
+          <p>The 'Resume' page further explains some of the skillsets that are on my resume. While LinkedIn has a quick summary of my resume, I wanted to add a more personal touch on my own site.</p>
+          <p>The 'Previous Work' page is like my portfolio - because Heroku only allows for 5 sites to be deployed for free, I've exhibited my work through screenshots, videos, or links.</p>
+          <p>The 'Course Work' page is a quick summary of my transcript. If you would like to view my full transcript to connect me with opportunities, please reach out to me on any of the contact information
+              to the right of this message, under 'Get in Touch' or 'Contacts.'
+          </p>
+          <p class="blog-post-meta">- Sammie (Ella)</p>
+        </div>
+      </div><!-- /.blog-post -->
+
+    </div><!-- /.blog-main -->
+
+    <aside class="col-md-4 blog-sidebar">
+        <div class="p-4 mb-3 bg-light rounded">
+            <h4 class="font-italic">Get in Touch!</h4>
+            <p class="mb-0">I've listed a few ways to get in touch with me below! Please send me an email at <em>sc6aa@virginia.edu</em> to get in touch.</p>
+        </div>
+
+        <div class="p-4">
+            <h4 class="font-italic">Contacts</h4>
+            <ol class="list-unstyled">
+            <li><a href="https://github.com/EllaChung">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/ella-sammie-chung-633763121/">Connect on LinkedIn</a></li>
+            </ol>
+        </div>
+    </aside><!-- /.blog-sidebar -->
+    
+    
+
+  </div><!-- /.row -->
+</main><!-- /.container -->
+
+{% endblock content %}

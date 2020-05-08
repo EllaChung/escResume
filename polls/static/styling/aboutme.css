@@ -1,0 +1,9 @@
+
+img {
+    border-radius: 50%;
+}
+
+.responsive {
+   width: 50%;
+   height: auto;
+}
