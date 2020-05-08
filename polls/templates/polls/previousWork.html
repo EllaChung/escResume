@@ -1,4 +1,13 @@
 {% extends "polls/base.html" %}
 {% load static %}
 
+{% block content %}
 <link rel="stylesheet"  type="text/css" href="{% static 'styling/previousWork.css' %}">
+
+<div class="container">
+    <div class="jumbotron text-black rounded" style="background-color: rgba(99, 99, 99, 0.418); padding-top: 20px; padding-bottom: 20px">
+        <h3>Currently in the Works...</h3>
+    </div>
+</div>
+
+{% endblock content %}
