@@ -1,5 +1,6 @@
 h5 {
     padding-left: 15px;
+    color: rgba(29, 29, 29, 0.815);
 }
 
 .list-unstyled {
@@ -8,4 +9,24 @@ h5 {
 
 .narrative {
     padding-left: 15px;
+}
+
+.display-4 {
+    color: white;
+}
+
+h4 {
+    color: rgba(34, 34, 34, 0.733);
+} 
+
+ul {
+    color: rgba(31, 31, 31, 0.603);
+}
+li {
+    color: rgba(54, 54, 54, 0.671);
+}
+
+.jumbotron {
+    border-radius: 2px;
+    color: black;
 }
