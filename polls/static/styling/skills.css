@@ -1,0 +1,140 @@
+.svg-section {
+    height: 500px;
+    animation-name: bounce;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+/*defining keyframes animations*/
+@keyframes bounce {
+    30% {
+        transform: translateY(-50px);
+    }
+    /*5% {
+        transform: scale(1.5);
+    }*/
+}
+
+.confetti1 {
+    animation-name: funfetti1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes funfetti1 {
+    50% {
+        transform: translateX(50px);
+    }
+    100% {
+        transform: translateY(-50px);
+        transform: translateX(70px);
+    }
+}
+
+.confetti2 {
+    animation-name: funfetti2;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes funfetti2 {
+    50% {
+        transform: translateX(50px);
+    }
+}
+
+.confetti3 {
+    animation-name: funfetti3;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes funfetti3 {
+    50% {
+        transform: translateX(50px);
+    }
+}
+
+.confetti4 {
+    animation-name: funfetti4;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes funfetti4 {
+    50% {
+        transform: translateX(50px);
+    }
+}
+
+.confetti5 {
+    animation-name: funfetti5;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes funfetti5 {
+    50% {
+        transform: translateX(50px);
+    }
+}
+
+.confetti6 {
+    animation-name: funfetti6;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes funfetti6 {
+    50% {
+        transform: translateX(50px);
+    }
+}
+
+.confetti7 {
+    animation-name: funfetti7;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes funfetti7 {
+    50% {
+        transform: translateX(50px);
+    }
+}
+
+.confetti8 {
+    animation-name: funfetti8;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes funfetti8 {
+    50% {
+        transform: translateX(50px);
+    }
+}
+
+.confetti9 {
+    animation-name: funfetti9;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes funfetti9 {
+    50% {
+        transform: translateX(50px);
+    }
+}
+
+.confetti10 {
+    animation-name: funfetti10;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes funfetti10 {
+    50% {
+        transform: translateX(50px);
+    }
+}
