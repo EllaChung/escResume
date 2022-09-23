@@ -7,6 +7,18 @@ h5 {
     padding-left: 30px;
 }
 
+.cs {
+    grid-column: 1/2;
+}
+
+.linguistics {
+    grid-column: 2/3;
+}
+
+.titleblock {
+    width: 200%;
+}
+
 .narrative {
     padding-left: 15px;
 }

@@ -3,17 +3,16 @@
 
 {% block content %}
 
-<link rel="stylesheet"  type="text/css" href="{% static 'styling/courseWork.css' %}">
+<link rel="stylesheet"  type="text/css" href="{% static 'styling/courseWork.css' %}"/>
 
   <div class="container">
     <div class="jumbotron text-black rounded" style="background-color: white; padding-top: 20px; padding-bottom: 20px; border: 0.5px rgba(207, 207, 207, 0.705) solid;">
-        <!--<h5 class="display-4 font-italic" style="padding-left: 15px; color: rgba(19, 161, 255, 0.459)">Course Work</h5>
-        <hr>-->
-        <h4 style="padding-left: 15px; padding-top: 5px; padding-bottom: 5px; word-spacing: 445px"><strong>Computer-Science Linguistics</strong></h4>
-        <!--<h4 style="padding-right: 215px; text-align: right"><strong>Linguistics</strong></h4>-->
-        <hr>
-        <div class="grid-container" style="display: grid; grid-template-columns: 50% 50%; grid-gap: 15%">
-          <div>
+      <div class="grid-container" style="display: grid; grid-template-columns: 50% 50%; grid-gap: 1%">
+        <h4 style="padding-left: 15px; padding-top: 5px; padding-bottom: 0px; word-spacing: 45px"><strong>Computer-Science</strong></h4>
+        <h4 style="padding-left: 15px; padding-top: 5px; padding-bottom: 0px; word-spacing: 45px"><strong>Linguistics</strong></h4>
+        <hr class="titleblock">
+      
+          <div class="cs">
             <h5>1st Year</h5>
               <ul class="list-unstyled">
                 <li>CS 1110: Introduction to Programming</li>
@@ -42,7 +41,7 @@
             </ul>
           </div>
 
-          <div>
+          <div class="linguistics">
             <h5>1st Year</h5>
               <ul class="list-unstyled">
               </ul>
@@ -69,7 +68,8 @@
               <li>MEST 2450: Languages Israeli Nationhood</li>
             </ul>
           </div>
-        </div>
+
+      </div>
     </div>
   </div>
 
