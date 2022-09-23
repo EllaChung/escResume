@@ -3,4 +3,3 @@ gunicorn
 django
 django-bootstrap4
 dj-database-url
-python==3.8.1
